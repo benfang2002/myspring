@@ -14,7 +14,7 @@ implements ConstraintValidator<PasswordMatches, Object> {
   @Override
   public boolean isValid(Object obj, ConstraintValidatorContext context){   
       UserDto user = (UserDto) obj;
-      return user.getpassword().equals(user.getMatchingpassword());    
+      return user.getpassword().equals(user.getmatchingpassword());    
   }
      
 }
