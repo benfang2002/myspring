@@ -60,11 +60,11 @@ public class UserDto {
 	    {
 	    	this.password = password;
 	    }
-	    public String getmatchingPassword()
+	    public String getmatchingpassword()
 	    {
 	    	return this.matchingPassword;
 	    }
-	    public void setmatchingPassword(String matchingPassword)
+	    public void setmatchingpassword(String matchingPassword)
 	    {
 	    	this.matchingPassword = matchingPassword;
 	    }
