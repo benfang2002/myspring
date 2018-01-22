@@ -52,19 +52,19 @@ public class UserDto {
 	    }
 	    
 	    
-	    public String getpassword()
+	    public String getPassword()
 	    {
 	    	return this.password;
 	    }
-	    public void setpassword(String password)
+	    public void setPassword(String password)
 	    {
 	    	this.password = password;
 	    }
-	    public String getmatchingpassword()
+	    public String getMatchingPassword()
 	    {
 	    	return this.matchingPassword;
 	    }
-	    public void setmatchingpassword(String matchingPassword)
+	    public void setMatchingPassword(String matchingPassword)
 	    {
 	    	this.matchingPassword = matchingPassword;
 	    }
